@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_rip_bain/characters/npc_rip_bain/npc_rip_bain" orientation_object="root_point" />
+	<sequence_manager file="units/pd2_dlc_rip_bain/characters/npc_rip_bain/npc_rip_bain" />
+	<decal_surfaces default_material="flesh" />
+	<graphics>
+		<graphic_group name="character" enabled="true" culling_object="g_body">
+			
+			<lod_object name="lod_body">
+				<object name="g_body_lod0" enabled="true"  max_distance="1000" cpy_material_vars="contour_color, contour_opacity">
+	                <material materials="mtr_body"              max_distance="900" />
+	                <material materials="mtr_body_lod"/>
+	        	</object>
+				<object name="g_body_lod1" enabled="true" lod="1" cpy_material_vars="contour_color, contour_opacity"/>
+			</lod_object>
+			
+			<lod_object name="lod_head">
+				<object name="g_head_lod0" enabled="true"  max_distance="1000" cpy_material_vars="contour_color, contour_opacity">
+	                <material materials="mtr_head"              max_distance="900" />
+	                <material materials="mtr_head_lod"/>
+	        	</object>
+				<object name="g_head_lod1" enabled="true" lod="1" cpy_material_vars="contour_color, contour_opacity"/>
+			</lod_object>
+
+			<object name="g_hair_cloth1"		enabled="true" />
+			<object name="g_hair_cloth2"		enabled="true" />
+			<object name="g_hair_cloth3"		enabled="true" />
+
+			<object name="g_trim" enabled="true" lod="1" cpy_material_vars="contour_color, contour_opacity"/>
+
+			<object name="s_body" enabled="true" shadow_caster="true"/>
+		</graphic_group>
+	</graphics>
+</dynamic_object>
