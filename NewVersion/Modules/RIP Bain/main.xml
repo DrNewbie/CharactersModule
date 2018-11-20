@@ -1,5 +1,5 @@
 <table name="RIP_Bain">
-	<AssetUpdates id="23829" version="10" provider="modworkshop" use_local_dir="true" use_local_path="true"/>
+	<AssetUpdates id="23829" version="11" provider="modworkshop" use_local_dir="true" use_local_path="true"/>
 	<Localization directory="Loc" default="EN.json"/>
 	<Character id="rip_bain" based_on="bodhi" unit="units/pd2_dlc_rip_bain/characters/npc_rip_bain/npc_rip_bain" fps_unit="units/pd2_dlc_rip_bain/characters/fps_rip_bain/fps_rip_bain" default_mask="nyck_beret">
 		<character speech_prefix="rb_bain"/>
